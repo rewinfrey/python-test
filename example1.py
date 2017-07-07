@@ -1,12 +1,12 @@
-class A():
-  def b(self):
+class A:
+  def b(yo=2):
     return c
 
   def c(self):
-      return d
+    return d
 
-  @a
-  @b
-  @c
-  def d(self):
-      return e
+  def d(yo=1):
+    return e
+
+  def e(self):
+    return f
