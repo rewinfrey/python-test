@@ -5,5 +5,8 @@ class A:
   def c(self):
       return d
 
+  @a
+  @b
+  @c
   def d(self):
       return e
